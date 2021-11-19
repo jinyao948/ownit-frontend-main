@@ -12,7 +12,7 @@ export default function Landing() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        fetch("/api/users/all", {
+        fetch("/api/users/", {
             method: "POST",
             body: JSON.stringify({
                 email: event.target.email.value,
