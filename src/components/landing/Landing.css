@@ -1,0 +1,68 @@
+.landing {
+    display: flex;
+    height: 100vh;
+}
+
+.left-body {
+    flex:1;
+    height: 100%
+}
+
+.textbox {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    max-width: 40%;
+    
+}
+
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+    color: #2E5C96;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 72px;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.right-body {
+    flex:1;
+    margin-left: 5%;
+    height: 100%;
+    width: 40%;
+    background-image: url(../../assets/handyman.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    margin-botton: 0px;
+}
+
+.subtitle {
+    margin-top: -20px;
+}
+
+.mailing-list {
+    margin-top: 15%;
+}
+
+.submit-button {
+    font-family: 'Rubik', sans-serif;
+    margin-left: 10px;
+    background: #2E5C96;
+    color: white;
+}
