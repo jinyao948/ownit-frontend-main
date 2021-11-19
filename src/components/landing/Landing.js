@@ -12,7 +12,7 @@ export default function Landing() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        fetch("/api/users/", {
+        fetch("https://ownitapi.herokuapp.com/api/users/", {
             method: "POST",
             body: JSON.stringify({
                 email: event.target.email.value,
